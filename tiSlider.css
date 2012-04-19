@@ -1,0 +1,69 @@
+/* 
+    Document   : tiSlider.css
+    Created on : 30 mars 2012, 10:23:20
+    Author     : Morgan Juillard Mancino
+    Description:
+        styleshit of tiSlider, a jQuery plugin 
+        create by Tillid.
+        Fell free to customize the design!
+*/
+
+.slider{
+    border: solid 5px #dddddd;
+}
+
+.slider_image{
+    border: solid 2px #cccccc;
+    float: right;
+}
+
+.slider ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+
+.slider li{
+    height: 50px;
+    width:168px;
+    font: normal 18px "Arial Rounded MT Bold";
+    color: #c5c5c5;
+    background-image: url("/tiSliderImage/tiSliderLi.png");
+}
+
+.slider_menu a{
+    display: table-cell;
+    height: 50px;
+    padding-left: 16px;
+    vertical-align: middle;
+    font: normal 18px "Arial Rounded MT Bold";
+    color: #c5c5c5;
+}
+
+.slider_menu a:hover{
+    color: #c5c5c5;
+}
+
+
+.slider_menu{
+    width:168px;
+    background-image: url("/tiSliderImage/tiSliderLi.png");
+    position: absolute; 
+    z-index: 3;
+}
+
+
+.slider_arrow{
+    height: 50px;
+    width: 49px;
+    background-image: url("/tiSliderImage/tiSliderMark.png");
+    z-index: 2;
+    position: absolute;
+}
+
+.slider_image img{
+    position: absolute;
+    z-index: 0;
+}
