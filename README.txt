@@ -1,10 +1,15 @@
+
+DESCRIPTION
 tiSlider (for jQuery) is a simple slider plugin.
 
+DEPENDENCIES:
+none
+
+INCLUSIONS:
 You have to include tiSlider.min.js (or tiSlider.js), jQuery 1.7 or higher,
 tiSlider.css, you also have to copy the tiSliderImage folder in your  web root folder.
 
-the html architecture to creat a tislider is simple:
-
+HTML:
 <div  class="slider">
     <ul>
         <li>
@@ -35,11 +40,11 @@ the html architecture to creat a tislider is simple:
         <img src=".image4.png" alt="alt4"/>
     </div>
 </div>
-You can put as mutch image as you want but you have to put the same numbre of <li>.
+You can put as much image as you want but you have to put the same numbre of <li>.
 
 
+JS CALL:
 put the following javascript after your sliders. you can only customize their width at the moment.
-
 <script type="text/javascript">
     $('.slider').sliderBox({
         width: 910
